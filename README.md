@@ -52,5 +52,5 @@ var _payload_ = map[string]Payload{
 ## Usage
 ```echo "42.3.184.132" | ./zgrab2 raw_udp --port 161 --payload-timeout 1s --custom="ntp quic snmpv1 snmpv2 snmpv3" --fast --default default  > result.json```
 
-## Exmaple
+## Example
 <img width="1920" height="891" alt="изображение" src="https://github.com/user-attachments/assets/4e5f6112-1cfb-4100-90c4-ec95cc1c920c" />

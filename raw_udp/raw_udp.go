@@ -47,6 +47,8 @@ func GetRawUDPResponse(conn net.Conn, t *zgrab2.ScanTarget, config *Flags) (zgra
 	case config.SearchByPort:
 		log.Info("\033[32m•SEARCH BY PORT ACTIVATE\033[0m")
 		response, proto, err = SearchByPort(conn, int(t.Port), config)
+	default:
+		// default action
 	}
 
 	if err != nil {
